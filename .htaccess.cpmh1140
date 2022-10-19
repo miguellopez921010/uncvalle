@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule ^$ web/
+RewriteCond %{REQUEST_FILENAME} !–f
+RewriteCond %{REQUEST_FILENAME} !–d
+RewriteRule ^(.*)$ web/$1
+
+php_value max_execution_time 3000
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
+php_value memory_limit 256M
+php_value set_time_limit 0
+php_value output_buffering 400000

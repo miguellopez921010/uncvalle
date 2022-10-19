@@ -1,0 +1,1161 @@
+[10-Apr-2020 22:46:47 America/Bogota] PHP Warning:  Uncaught yii\base\ErrorException: require_once(/home/uncvalle/public_html/vendor/PHPExcel/Classes/PHPExcel.php): failed to open stream: No such file or directory in /home/uncvalle/public_html/modules/maestras/controllers/EmpleadosController.php:11
+Stack trace:
+#0 /home/uncvalle/public_html/modules/maestras/controllers/EmpleadosController.php(11): yii\base\ErrorHandler->handleError(2, 'require_once(/h...', '/home/uncvalle/...', 11, Array)
+#1 /home/uncvalle/public_html/modules/maestras/controllers/EmpleadosController.php(11): require_once()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/BaseYii.php(293): include('/home/uncvalle/...')
+#3 [internal function]: yii\BaseYii::autoload('app\\modules\\mae...')
+#4 [internal function]: spl_autoload_call('app\\modules\\mae...')
+#5 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Module.php(637): class_exists('app\\modules\\mae...')
+#6 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('empleados')
+#7 /home/uncv in /home/uncvalle/public_html/modules/maestras/controllers/EmpleadosController.php on line 11
+[10-Apr-2020 22:46:47 America/Bogota] PHP Fatal error:  yii\BaseYii::main(): Failed opening required '/home/uncvalle/public_html/vendor/PHPExcel/Classes/PHPExcel.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/uncvalle/public_html/modules/maestras/controllers/EmpleadosController.php on line 11
+[10-Apr-2020 23:27:38 America/Bogota] PHP Warning:  Uncaught yii\base\ErrorException: require_once(/home/uncvalle/public_html/vendor/PHPExcel/Classes/PHPExcel.php): failed to open stream: No such file or directory in /home/uncvalle/public_html/modules/maestras/controllers/ProductosController.php:11
+Stack trace:
+#0 /home/uncvalle/public_html/modules/maestras/controllers/ProductosController.php(11): yii\base\ErrorHandler->handleError(2, 'require_once(/h...', '/home/uncvalle/...', 11, Array)
+#1 /home/uncvalle/public_html/modules/maestras/controllers/ProductosController.php(11): require_once()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/BaseYii.php(293): include('/home/uncvalle/...')
+#3 [internal function]: yii\BaseYii::autoload('app\\modules\\mae...')
+#4 [internal function]: spl_autoload_call('app\\modules\\mae...')
+#5 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Module.php(637): class_exists('app\\modules\\mae...')
+#6 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('productos')
+#7 /home/uncv in /home/uncvalle/public_html/modules/maestras/controllers/ProductosController.php on line 11
+[10-Apr-2020 23:27:38 America/Bogota] PHP Fatal error:  yii\BaseYii::main(): Failed opening required '/home/uncvalle/public_html/vendor/PHPExcel/Classes/PHPExcel.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/uncvalle/public_html/modules/maestras/controllers/ProductosController.php on line 11
+[11-Apr-2020 00:56:46 America/Bogota] PHP Fatal error:  Cannot redeclare app\modules\administrador\controllers\PaginasController::actionListar() in /home/uncvalle/public_html/modules/administrador/controllers/PaginasController.php on line 40
+[22-Jun-2020 20:47:23 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 337. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 337. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-es',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=d026d5df9ccdde111d71f3288210b6c2; _csrf=d6a8a22b08d25e5d369fe4e8358cf4e3977da00dceb67296dad47e575198fcaea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D43ippY-yoMdni9reQxgvxbSsK2jrzmW%22%3B%7D',
+    'HTTP_HOST' => 'uncvalle.com',
+    'HTTP_REFERER' => 'http://uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/112.0.316532311 Mobile/15E148 Safari/604.1',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XvFfKxODPFS5s7HVvXwDMQAAAMY',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XvFfKxODPFS5s7HVvXwDMQAAAMY',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XvFfKxODPFS5s7HVvXwDMQAAAMY',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '186.147.200.32',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '59106',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1592876843.65583,
+    'REQUEST_TIME' => 1592876843,
+]
+[22-Jun-2020 20:49:33 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 337. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 337. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-es',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=d026d5df9ccdde111d71f3288210b6c2; _csrf=d6a8a22b08d25e5d369fe4e8358cf4e3977da00dceb67296dad47e575198fcaea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D43ippY-yoMdni9reQxgvxbSsK2jrzmW%22%3B%7D',
+    'HTTP_HOST' => 'uncvalle.com',
+    'HTTP_REFERER' => 'http://uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/112.0.316532311 Mobile/15E148 Safari/604.1',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XvFfrYr@oy4KFV0@MpOpKQAAABg',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XvFfrYr@oy4KFV0@MpOpKQAAABg',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XvFfrYr@oy4KFV0@MpOpKQAAABg',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '186.147.200.32',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '59118',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1592876973.357727,
+    'REQUEST_TIME' => 1592876973,
+]
+[26-Jun-2020 18:09:47 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 337. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 337. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '16',
+    'HTTP_COOKIE' => 'PHPSESSID=8df428b8d5309ca1e03aea9abfbc9c0c; _csrf=4dc59e88e09ca555c56bf5077d2ba05abfe47db29bd52af62f4d805a3eaae2baa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rUnTGeu7umkux74amSzY9OIZ1ymM-RRs%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_SAVE_DATA' => 'on',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XvaAOy2MmFUs3RvU0r7EEwAAAFE',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XvaAOy2MmFUs3RvU0r7EEwAAAFE',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XvaAOy2MmFUs3RvU0r7EEwAAAFE',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '191.156.3.3',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '42377',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1593212987.62036,
+    'REQUEST_TIME' => 1593212987,
+]
+[08-Jul-2020 18:39:03 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es,en-CA;q=0.9,en-AU;q=0.8,en;q=0.7',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=6dcf58c595bdea2e9022fe881c674c1d; _csrf=dd302fc0603644aadbddbf291b0627a9273fa1ce89860cd035ce08b2cf8c6439a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mI6-BTEsfymwm58dBf262YRLr_w9HxYW%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XwZZF7VOzFcC75N1m45svAAAAMY',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XwZZF7VOzFcC75N1m45svAAAAMY',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XwZZF7VOzFcC75N1m45svAAAAMY',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '190.85.126.190',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '50987',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1594251543.385931,
+    'REQUEST_TIME' => 1594251543,
+]
+[04-Sep-2020 08:52:05 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=d313a1f435d3876b3067a2e220418168; _csrf=c406c3f15e414e8cda9efbe65638a326fd54e19885a09dbc69dce00807e26f69a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XBPSSAbUATwH9sEPEdwpDqZJrde5osxL%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+    'HTTP_DNT' => '1',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X1JGhSyY29mcutWBxdvl2wAAAEw',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X1JGhSyY29mcutWBxdvl2wAAAEw',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X1JGhSyY29mcutWBxdvl2wAAAEw',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '186.81.193.44',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '49712',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1599227525.293748,
+    'REQUEST_TIME' => 1599227525,
+]
+[22-Sep-2020 08:21:53 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '16',
+    'HTTP_COOKIE' => 'PHPSESSID=28d699aff53cd0e437bf80100d6f7424; _csrf=7be9793ab0367dad0abdf685d9c5ab514c54797d4d9bb060f0227aba4f806278a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nu6tuA8NBT2u-_xvBjysS7F7tEUZscDG%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X2n6cBDq0Kyk9C@GjAWuqwAAAIE',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X2n6cBDq0Kyk9C@GjAWuqwAAAIE',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X2n6cBDq0Kyk9C@GjAWuqwAAAIE',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '186.86.52.214',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '1490',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1600780912.982659,
+    'REQUEST_TIME' => 1600780912,
+]
+[25-Sep-2020 09:05:14 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '16',
+    'HTTP_COOKIE' => 'PHPSESSID=4e54f45e66a72a34292f4cc042a88ffc; _csrf=ecc35cedd406cc7a8ed3e625e7a3c2f8bf7f80ae86555229c886ed624ed6aa59a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mHjHrjt2QBdNOIKrD5NEwW4BfNIYbX8N%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X235GttBJCZxo-8nBvXnmAAAANM',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X235GttBJCZxo-8nBvXnmAAAANM',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X235GttBJCZxo-8nBvXnmAAAANM',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.54.0.225',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '3685',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1601042714.476183,
+    'REQUEST_TIME' => 1601042714,
+]
+[25-Sep-2020 09:22:13 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=b5ed5c383c87461cf86f87552d3da8c1; _csrf=0f61684e82e24d80fdd7d0b925e756af6ff068387256cd237bb5902d575b3e64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225N5-Vjv3Nkcr92Jts4H2jozMphZVU8F6%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X239FdtBJCZxo-8nBvXytwAAANA',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X239FdtBJCZxo-8nBvXytwAAANA',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X239FdtBJCZxo-8nBvXytwAAANA',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.54.0.225',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '4259',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1601043733.271831,
+    'REQUEST_TIME' => 1601043733,
+]
+[25-Sep-2020 09:22:15 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=b5ed5c383c87461cf86f87552d3da8c1; _csrf=0f61684e82e24d80fdd7d0b925e756af6ff068387256cd237bb5902d575b3e64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225N5-Vjv3Nkcr92Jts4H2jozMphZVU8F6%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X239F9tBJCZxo-8nBvXyuQAAANA',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X239F9tBJCZxo-8nBvXyuQAAANA',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X239F9tBJCZxo-8nBvXyuQAAANA',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.54.0.225',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '4259',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1601043735.341064,
+    'REQUEST_TIME' => 1601043735,
+]
+[25-Sep-2020 09:23:55 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=b5ed5c383c87461cf86f87552d3da8c1; _csrf=0f61684e82e24d80fdd7d0b925e756af6ff068387256cd237bb5902d575b3e64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225N5-Vjv3Nkcr92Jts4H2jozMphZVU8F6%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X239exJWrQ5wTpuWU7D5QwAAAIg',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X239exJWrQ5wTpuWU7D5QwAAAIg',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X239exJWrQ5wTpuWU7D5QwAAAIg',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.54.0.225',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '13943',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1601043835.555874,
+    'REQUEST_TIME' => 1601043835,
+]
+[10-Nov-2020 16:40:30 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=6caf5a6f091abca7af005a98a71ddbf9; _csrf=a3cc96c052bb27a33799a69b9be0bc43df78e84b2de52ccebd75dabb9b0c1bc6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WsMWyKVgB8OY7G4ArmnrB9ydHh0MQqBa%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X6sIzbgzIK2ZKBllXsxdQgAAAEI',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X6sIzbgzIK2ZKBllXsxdQgAAAEI',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X6sIzbgzIK2ZKBllXsxdQgAAAEI',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '191.97.5.58',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '1850',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1605044429.861799,
+    'REQUEST_TIME' => 1605044429,
+]
+[10-Nov-2020 16:41:03 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=6caf5a6f091abca7af005a98a71ddbf9; _csrf=a3cc96c052bb27a33799a69b9be0bc43df78e84b2de52ccebd75dabb9b0c1bc6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WsMWyKVgB8OY7G4ArmnrB9ydHh0MQqBa%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'X6sI7wiLANPMAI0mDvkz0wAAAIM',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'X6sI7wiLANPMAI0mDvkz0wAAAIM',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X6sI7wiLANPMAI0mDvkz0wAAAIM',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '191.97.5.58',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '1143',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1605044463.670986,
+    'REQUEST_TIME' => 1605044463,
+]
+[03-Feb-2021 08:55:14 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=6ece7f31c9af666dd226d1bd4e1233e4; _csrf=cb759f3ee2b297fae8b622fa76b39ffc859419bd31437b3bfd51341a1cfc9f6aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ReMXgjJuVBkLTgCU-s05_hZ215OweuW_%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'YBqrQY1tPQvpSyiVTsLN7AAAAIE',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YBqrQY1tPQvpSyiVTsLN7AAAAIE',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'YBqrQY1tPQvpSyiVTsLN7AAAAIE',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '190.84.33.30',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '59930',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1612360513.967862,
+    'REQUEST_TIME' => 1612360513,
+]
+[02-Mar-2021 14:53:59 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-es',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=47bda17b08ded540d7587c5c0ebb51ba; _csrf=fc929feb069ed3e6b54d75056d6ae8fe90c01d7c7f48757f8481dc7fdb0365cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MOnfqkSeQnyvMjqf1tVfvTcnV43rbxJu%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'YD6X1wXkOtuG1ny9vwTx7QAAAEM',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YD6X1wXkOtuG1ny9vwTx7QAAAEM',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'YD6X1wXkOtuG1ny9vwTx7QAAAEM',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.62.53.233',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '8905',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1614714839.39323,
+    'REQUEST_TIME' => 1614714839,
+]
+[03-Mar-2021 09:21:58 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 360. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '17',
+    'HTTP_COOKIE' => 'PHPSESSID=abb2136c799026f894ddd259693d9ff7; _csrf=e38a81e75814a0928d534bb50dc4b7117bcc8efdbced88c02ffc69254dd2a57ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y_BFvxyXei2w7wICAOJxqupVr5rsU4Xv%22%3B%7D',
+    'HTTP_HOST' => 'www.uncvalle.com',
+    'HTTP_REFERER' => 'http://www.uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://www.uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'YD@bhvPdgTJDWBeUt5ja3gAAAQw',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YD@bhvPdgTJDWBeUt5ja3gAAAQw',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'YD@bhvPdgTJDWBeUt5ja3gAAAQw',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://www.uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.49.225.130',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '56071',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1614781318.759563,
+    'REQUEST_TIME' => 1614781318,
+]
+[16-Mar-2021 20:58:07 America/Bogota] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 354. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/uncvalle/public_html/controllers/SiteController.php on line 354. in /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/uncvalle/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/uncvalle/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/uncvalle/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '16',
+    'HTTP_COOKIE' => 'timezone=America/Bogota; PHPSESSID=83f10c2a308bbf92dfa19a0c3362fd84; _csrf=c0498bad4bb8fc65f5603a349b4a105db27fae1340a4189d38c28fca34b3d10ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DjmAOBjHLLiaXJCtqn31RHUPahWit4H1%22%3B%7D',
+    'HTTP_HOST' => 'uncvalle.com',
+    'HTTP_REFERER' => 'http://uncvalle.com/site/directorio-notarias',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_ORIGIN' => 'http://uncvalle.com',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'YFFiLlc9DLPTOKpHr8fEBQAAAlc',
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YFFiLlc9DLPTOKpHr8fEBQAAAlc',
+    'REDIRECT_HTTP_AUTHORIZATION' => '',
+    'REDIRECT_SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'REDIRECT_SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'YFFiLlc9DLPTOKpHr8fEBQAAAlc',
+    'HTTP_AUTHORIZATION' => '',
+    'SCRIPT_URL' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_URI' => 'http://uncvalle.com/site/cargar-ciudades-por-departamento',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'uncvalle.com',
+    'SERVER_ADDR' => '190.8.176.144',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '181.62.54.26',
+    'DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/uncvalle/public_html',
+    'SERVER_ADMIN' => 'webmaster@uncvalle.com',
+    'SCRIPT_FILENAME' => '/home/uncvalle/public_html/web/index.php',
+    'REMOTE_PORT' => '21285',
+    'REDIRECT_URL' => '/web/site/cargar-ciudades-por-departamento',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/cargar-ciudades-por-departamento',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1615946286.977056,
+    'REQUEST_TIME' => 1615946286,
+]

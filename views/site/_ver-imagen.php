@@ -1,0 +1,1 @@
+<img src="<?= Yii::getAlias('@web') . '/images/' . $Imagen['RutaCarpeta'] . '/' . $Imagen['NombreImagen'] ?>" class="img-responsive" style="margin: 5px auto;" title="<?=$Imagen['Comentario']?>">

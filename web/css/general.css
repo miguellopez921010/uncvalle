@@ -1,0 +1,104 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
+
+/**{
+	font-family: 'Roboto', sans-serif !important;
+}*/
+*{
+	font-size: 14px;
+	/*color: #000;*/
+}
+.form-control, .btn{
+	font-size: 14px !important;
+}
+.required::after{
+	color: red;	
+	content: '*';	
+	font-weight: bold;
+}
+table>tbody>tr>td{
+    vertical-align: middle !important;
+}
+#accordionMenuLateral>.panel>.panel-heading>.panel-title>a{
+	font-weight: bold !important;
+}
+#accordionMenuLateral>.panel>.panel-collapse a{
+	color: #000 !important;
+}
+#accordionMenuLateral>.panel>.panel-collapse>.list-group>.list-group-item>a.active{	
+	font-weight: bold !important;
+}
+div#ui-datepicker-div{
+	z-index: 2 !important;
+}
+.ui-menu{
+	max-height: 300px !important;
+	overflow-y: auto !important;
+}
+.navbar {
+	background-color: #FFFFFF !important;
+}
+ul#MenuPrincipal>li>a{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a{
+	cursor: pointer;
+}
+.footer{
+	background-color: #0b2746 !important;
+	color: #FFFFFF;
+}
+ul.navbar-nav>li.nav-item>a.nav-link, ul.navbar-nav>li.nav-item>button{
+	color: #613947 !important;
+}
+.bx-wrapper .bx-controls-direction a{
+	z-index: 99 !important;
+}
+.contenedor-categoria{
+	border: 1px solid #613947; 
+	display: table;
+	height: 348px;
+	margin-top: 20px;
+	width: 348px;
+}
+.subcontenedor-categoria{
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	display: table-cell; 
+	vertical-align: bottom;
+	opacity: 0.8;
+}
+.subcontenedor-categoria:hover{
+	opacity: 1;
+}
+.titulo-categoria{
+	background-color: yellow;
+}
+.subcontenedor-categoria .titulo-categoria{
+	height: 80px;
+	vertical-align: middle;
+	display: table-cell;
+}
+.navbar{
+	border-bottom: 5px solid #b11116 !important;
+}
+legend{
+	color: #0b2746;
+	font-weight: bold;
+	border-bottom: 3px solid #b11116;
+}
+.navbar{
+    background-color: #fff !important;
+    padding: 12px !important;
+}
+.navbar-nav li.nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.titulo-pagina{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0b2746 !important;
+    font-size: 35px;
+}
